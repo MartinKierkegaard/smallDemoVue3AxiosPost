@@ -13,12 +13,14 @@
       <div class="nav-bar"></div>
 
       <h1>{{ intro }}</h1>
-      <input v-model:"carId" placeholder="Id">      
-      <input v-model:"carVendor" placeholder="vendor">
-      <input v-model:"carModel" placeholder="model">
-      <input v-model:"carPrice" placeholder="price">
+      <input v-model="carId" placeholder="Id">      
+      <input v-model="carVendor" placeholder="vendor">
+      <input v-model="carModel" placeholder="model">
+      <input v-model="carPrice" placeholder="price">
       
-      <button v-on:"gemBil">gem bil</button>
+      <button v-on:click="gemBil">gem bil</button>
+
+      <h1>Status: {{statusCode}}</h1>
 
 
     </div>
