@@ -17,6 +17,9 @@ const app = Vue.createApp({
     data() {
         return {
             intro: 'Welcome to my Axios post demo',
+            carVendor:"",
+            carModel:"",
+            carPrice:0,
         }
     },
     methods: {
