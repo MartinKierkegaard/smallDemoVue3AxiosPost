@@ -2,6 +2,7 @@ const app = Vue.createApp({
     data() {
         return {
             intro: 'Welcome to my axios post example',
+            carId:0,
             carVendor:"",
             carModel:"",
             carPrice:"",
@@ -9,7 +10,7 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        myMethod(){
+        gemBil(){
 
         },
     },
