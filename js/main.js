@@ -16,7 +16,7 @@ const baseUri = "http://localhost:5180/api/Cars"
 const app = Vue.createApp({
     data() {
         return {
-            intro: 'Welcome to my Vue template',
+            intro: 'Welcome to my Axios post demo',
         }
     },
     methods: {
