@@ -6,10 +6,10 @@ const baseUri = "http://localhost:5180/api/Cars"
 //OK 3 Test at twoway binding virker med {{}} - commit
 //OK 4 Tilføj knap og click event 
 //OK 5 Test knap - commit
-// 6 Tilføj axios post kald
-// 7 test at .then virker - commit
-// 8 test at .catch virker - commit 
-// 9 Tilføj statuskode vises i html 
+//OK 6 Tilføj axios post kald
+//OK  7 test at .then virker - commit
+//OK  8 test at .catch virker - commit 
+//OK  9 Tilføj statuskode vises i html 
 // FIN
 
 
