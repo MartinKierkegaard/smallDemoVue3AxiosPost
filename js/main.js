@@ -1,9 +1,9 @@
 const baseUri = "http://localhost:5180/api/Cars"
 
 // STEPS
-// 1 Tilføj variabler til data i js - 
-// 2 Tilføj input felter som twoway pinder til variaber - 
-// 3 Test at twoway binding virker med {{}} - commit
+//OK 1 Tilføj variabler til data i js - 
+//OK 2 Tilføj input felter som twoway pinder til variaber - 
+//OK 3 Test at twoway binding virker med {{}} - commit
 // 4 Tilføj knap og click event 
 // 5 Test knap - commit
 // 6 Tilføj axios post kald
@@ -23,7 +23,8 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        myMethod(){
+        gemBil(){
+            console.log("er i gem bil metoden")
 
         },
     },
